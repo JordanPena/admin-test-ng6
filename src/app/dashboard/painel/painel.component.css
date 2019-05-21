@@ -1,0 +1,6 @@
+.card-panel-content {
+    border: none;
+    -webkit-border: none;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.225);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.225);
+  }

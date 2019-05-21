@@ -1,0 +1,29 @@
+<div id="body" class="text-center">
+  <form class="form-signin">
+    <img alt="Ongbook" class="mb-4" src="https://camo.githubusercontent.com/24fab6a70823ef289e365df117ff255ebd710e55/68747470733a2f2f63656e7472616c2e6f6e67626f6f6b2e6f72672f696d672f6f6e67626f6f6b2e706e67" alt="" width="72">
+    <h1 class="h4 mb-3 font-weight-normal">Por favor acesse</h1>
+    <input type="email" id="inputEmail" class="form-control" placeholder="Email ou sigla da URL" required autofocus>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Salvar dados
+      </label>
+    </div>
+    <button class="btn btn-lg btn-dark btn-block" type="submit">Entrar</button>
+
+    <div class="container pt-3">
+        <small class="text-dark">Ou com as redes sociais:</small>
+        <div class="row d-flex rounded p-2 mt-1 jumbotron">
+          <i style="cursor:pointer;color:#3A5793" class="my-0 mx-auto fab fa-2x fa-facebook-square"></i>
+          <i style="cursor:pointer;color:#0077b5" class="my-0 mx-auto fab fa-2x fa-linkedin"></i>
+          <i style="cursor:pointer" class="my-0 mx-auto fab fa-2x fa-github-square"></i>
+          <i style="cursor:pointer;color:#c13584" class="my-0 mx-auto fab fa-2x fa-instagram"></i>
+          <i style="cursor:pointer;color:#41B7E8" class="my-0 mx-auto fab fa-2x fa-twitter-square"></i>
+        </div>
+        <small class="form-text text-center mt-3"><a href="#" class="text-dark"
+            (click)="smModal.hide();openModalEntityRegister(templateEntityRegister)">ou
+            crie sua conta</a></small>
+      </div>
+  </form>
+  
+</div>

@@ -1,0 +1,33 @@
+<nav id="sidebar" class="bg-light position-fixed">
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link px-2 text-dark" href="#">
+        <span data-feather="codesandbox"></span>
+        <span class="align-middle link-label px-1" *ngIf="collapsed">Necessidades</span>
+        <span class="sr-only">(current)</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link px-2 text-dark" href="#">
+        <span data-feather="edit"></span>
+        <span class="align-middle link-label px-1" *ngIf="collapsed">Editar perfil</span>
+        <span class="sr-only">(current)</span>
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link px-2 text-dark" href="#">
+        <span data-feather="eye"></span>
+        <span class="align-middle link-label px-1" *ngIf="collapsed">Ao Público</span>
+        <span class="sr-only">(current)</span>
+      </a>
+    </li>
+  </ul>
+
+  <!-- button sidebar collapse -->
+  <ul id="btn-sidebar-collapse" class="nav position-absolute bg-dark w-100" (click)="toggleCollapsed()">
+    <li class="nav-item py-2" id="sidebarCollapse">
+      <i id="toggle-icon" class="fas fa-angle-right text-muted"></i>
+    </li>
+  </ul>
+
+</nav>

@@ -1,0 +1,12 @@
+#wrapper {
+    min-height: 92.9vh;
+    margin-top: 48px;
+  }
+
+  .uncollapsed {
+    margin-left: 40px;
+  }
+  
+  .collapsed {
+    margin-left: 140.39px;
+  }
